@@ -1,0 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'Inria Sans';
+    src: url(../fuentes/Inria_Sans/InriaSans-Regular.ttf);
+}
