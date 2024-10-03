@@ -42,3 +42,18 @@ ul{
 nav ul li:hover{
     background-color: #4b733b;
 }
+.grid{
+    background-image: url(../assets/img/TC7R6GVLLVEY3K6HZ6PSAQVCXU.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    grid-template-areas: 
+    'foto1 foto2 foto3'
+    'foto4 foto5 foto6'
+    'foto7 foto8 foto9'
+    'foto10 foto11 foto12'
+    'foto13 foto14 foto15';
+}
