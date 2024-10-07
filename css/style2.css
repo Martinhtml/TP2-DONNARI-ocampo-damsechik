@@ -73,5 +73,6 @@ nav ul li:hover{
 }
 
 .titulo{
-    
+    display: flex;
+    justify-content: center;
 }
