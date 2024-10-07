@@ -173,3 +173,27 @@ nav ul li:hover{
 .tarjeta:hover .Trasera{
     transform: perspective(600px) rotateY(360deg);
 }
+footer{
+    height: 275px;
+    width: 100%;
+    background-color: #715E4E;
+}
+.logos{
+    height: 90px;
+    width: 500px;
+}
+.logos img{
+    height: 80px;
+    width: 80px;
+    transition: .3s;
+}
+.logos img:hover{
+    animation: Agrandar;
+}
+@keyframes Agrandar{
+    from{
+        scale: (1, 1);
+    }to{
+        scale: (1.1, 1.1);
+    }
+}
