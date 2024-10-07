@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Inria Sans';
 }
 
 @font-face {
@@ -75,4 +76,50 @@ nav ul li:hover{
 .titulo{
     display: flex;
     justify-content: center;
+}
+footer{
+    display: inline-block;
+    height: 275px;
+    width: 100%;
+    background-color: #715E4E;
+}
+.logos{
+    height: 90px;
+    width: 800px;
+}
+.logos img{
+    height: 80px;
+    width: 80px;
+    transition: .3s ;
+    animation: agrandar 3s infinite;
+}
+@keyframes agrandar{
+    from{
+        height: 80px;
+        width: 80px;
+    }to{
+        height: 85px;
+        width: 85px;
+    }
+}
+footer div{
+    width: 100%;
+    height: 33%;
+}
+.linea1{
+    display: flex;
+    flex-direction: row;
+}
+.links{
+    padding: 2%;
+    font-size: 20px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.contactos p{
+    padding-left: 1%;
 }
