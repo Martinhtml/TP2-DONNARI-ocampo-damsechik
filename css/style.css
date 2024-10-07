@@ -136,7 +136,6 @@ nav ul li:hover{
     position: absolute;
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 .Frontal h3{
     position: absolute;
@@ -161,12 +160,12 @@ nav ul li:hover{
 }
 .Trasera h3{
     font-size: 30px;
-    margin-top: 20%;
+    margin-top: 5%;
     letter-spacing: 2px;
 }
 .Trasera p{
     letter-spacing: 1px;
-    padding-bottom: 90px;
+    padding-bottom: 12%;
 }
 .tarjeta:hover .Frontal{
     transform: perspective(600px) rotateY(180deg);
