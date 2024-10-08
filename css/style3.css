@@ -109,7 +109,7 @@ footer div{
 
 .parte1 h1{
     justify-content: center;
-    margin-left: 45%;
+    align-items: center;
 }
 
 .parte1 img{
@@ -158,8 +158,9 @@ footer div{
 }
 
 .parte2 h1{
-    margin-left: 45%;
+    align-items: center;
     justify-content: center;
+    background-color: #715E4E;
 }
 
 .parte2 .turismo img{
