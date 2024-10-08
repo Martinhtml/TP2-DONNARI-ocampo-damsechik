@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inria Sans';
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Inria Sans';
+    font-size: 25px;
+    background-color: #52733B;
+}
+.img{
+    padding: 1%
+}
+nav{
+    width: 100%;
+    background-color: #84A45A;
+    height: 40px;
+    font-family: 'Inria Sans';
+    font-size: 18px;
+}
+li{
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 12%;
+    transition: 1s;
+}
+a{
+    font-family: 'Inria Sans';
+    text-decoration: none;
+    color: black;
+}
+ul{
+    padding-top: 0.6%;
+}
+nav ul li:hover{
+    transform: scale(1.3, 1.3);
+    background-color: #4b733b;
+}
+footer{
+    display: inline-block;
+    height: 275px;
+    width: 100%;
+    background-color: #715E4E;
+}
+.logos{
+    height: 90px;
+    width: 800px;
+}
+.logos img{
+    height: 80px;
+    width: 80px;
+    transition: .3s ;
+    animation: agrandar 3s infinite;
+}
+@keyframes agrandar{
+    from{
+        height: 80px;
+        width: 80px;
+    }to{
+        height: 85px;
+        width: 85px;
+    }
+}
+footer div{
+    width: 100%;
+    height: 33%;
+}
+.linea1{
+    display: flex;
+    flex-direction: row;
+}
+.links{
+    padding: 2%;
+    font-size: 20px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.contactos p{
+    padding-left: 1%;
+}
+
+.imagenes{
+    display: flex;
+    justify-content: baseline;
+}
