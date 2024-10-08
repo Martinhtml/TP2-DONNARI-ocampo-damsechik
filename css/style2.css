@@ -128,16 +128,21 @@ footer div{
     background-color: #84A45A;
     width: 100%;
     display: grid;
-    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    'imagen imagen texto';
 }
 
 .ruta{
     display: flex;
     width: 100%;
     justify-content: start;
+    grid-area: imagen;
 }
 
 .texto2{
     display: flex;
-    height: 350px;   
+    height: 350px;
+    grid-area: texto; 
 }
