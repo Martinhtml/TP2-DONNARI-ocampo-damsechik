@@ -6,6 +6,11 @@
 @font-face {
     font-family: 'Inria Sans';
     src: url(../fuentes/Inria_Sans/InriaSans-Regular.ttf);
+}´
+
+body{
+    height: 100%;
+    width: 100%;
 }
 header{
     display: flex;
@@ -118,6 +123,7 @@ footer div{
 .imagenes{
     display: flex;
     justify-content: space-between;
+    
     
 }
 
