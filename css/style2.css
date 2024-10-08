@@ -123,3 +123,21 @@ footer div{
 .contactos p{
     padding-left: 1%;
 }
+
+.llegada{
+    background-color: #84A45A;
+    width: 100%;
+    display: grid;
+    
+}
+
+.ruta{
+    display: flex;
+    width: 100%;
+    justify-content: start;
+}
+
+.texto2{
+    display: flex;
+    height: 350px;   
+}
