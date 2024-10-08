@@ -157,6 +157,11 @@ footer div{
 
 }
 
+.parte2 h1{
+    margin-left: 45%;
+    justify-content: center;
+}
+
 .parte2 .turismo img{
     margin-left: 150px ;
     margin-right: 20px;
