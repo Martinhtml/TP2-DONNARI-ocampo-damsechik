@@ -132,7 +132,6 @@ footer div{
     background-color: #715E4E;
     height: 1500px;
     width: 100%;
-    justify-content:  center;
     display: flex
 
 }
@@ -140,13 +139,12 @@ footer div{
 .parte2 div img{
     margin-left: 10px ;
     margin-right: 5px;
-    height: 400px;
-    width: 450px;
+    height: 300px;
+    width: 350px;
 }
 
 .parte2 div p{
     display: flex;
-    justify-content: center;
     height: 100px;
     width: 30%;
 }
