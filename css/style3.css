@@ -132,7 +132,6 @@ footer div{
     background-color: #715E4E;
     height: 3000px;
     width: 100%;
-    display: flex
 
 }
 
@@ -144,7 +143,6 @@ footer div{
 }
 
 .parte2 div p{
-    display: flex;
     height: 100px;
     width: 30%;
 }
