@@ -108,3 +108,17 @@ footer div{
     height: 75px;
     width: 75px;
 }
+
+.parte2{
+    background-color: #715E4E;
+    height: 2000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    'foto1 texto1'
+    'foto2 texto2'
+    'foto3 texto3'
+    'foto4 texto4'
+    'foto5 texto5';
+}
