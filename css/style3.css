@@ -113,12 +113,19 @@ footer div{
 }
 
 .parte1 img{
+    animation: aparecer 6.5s 5;
     height: 350px;
     width: 400px;
     margin-left: 5%;
     margin-right: 20%;
 }
-
+@keyframes aparecer{
+    from{
+        opacity:0
+    }to{
+        opacity:1
+    }
+}
 .parte1 p{
     height: 100%;
     font-size: 23px;
