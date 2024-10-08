@@ -177,7 +177,11 @@ footer{
     display: inline-block;
     height: 275px;
     width: 100%;
-    background-color: #715E4E;
+    color: white;
+    background-color: #241d18;
+}
+footer a{
+    color: white;
 }
 .logos{
     height: 90px;
@@ -187,16 +191,6 @@ footer{
     height: 80px;
     width: 80px;
     transition: .3s ;
-    animation: agrandar 3s infinite;
-}
-@keyframes agrandar{
-    from{
-        height: 80px;
-        width: 80px;
-    }to{
-        height: 85px;
-        width: 85px;
-    }
 }
 footer div{
     width: 100%;
