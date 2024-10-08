@@ -91,8 +91,17 @@ footer div{
 .contactos p{
     padding-left: 1%;
 }
+.parte1{
+
+}
 
 .imagenes{
     display: flex;
     justify-content: space-between;
+    
+}
+
+.imagenes img{
+    height: 75px;
+    width: 75px;
 }
