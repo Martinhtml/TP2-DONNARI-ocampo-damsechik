@@ -90,5 +90,5 @@ footer div{
 
 .imagenes{
     display: flex;
-    justify-content: baseline;
+    justify-content: space-between;
 }
