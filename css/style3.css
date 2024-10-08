@@ -100,7 +100,7 @@ footer div{
 }
 .parte1{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     background-color: #52733B;
     height: 500px;
     width: 100%;
@@ -112,18 +112,26 @@ footer div{
     margin-left: 45%;
 }
 
-.parte1 div img{
-    margin-top: 10%;
+.parte1 img{
+    height: 350px;
+    width: 400px;
     margin-left: 5%;
-    margin-right: 10%;
+    margin-right: 20%;
 }
 
-.parte1 div p{
-    margin-top: 10%;
-    margin-left: 10%;
+.parte1 p{
+    height: 100%;
+    font-size: 23px;
+    margin-left: 20%;
+}
+
+.parteMedia{
+    height: 200px;
+    background-image: linear-gradient(#52733B, #715E4E);
 }
 
 .imagenes{
+    padding: 2%;
     display: flex;
     justify-content: space-between;
     
@@ -131,8 +139,8 @@ footer div{
 }
 
 .imagenes img{
-    height: 75px;
-    width: 75px;
+    height: 150px;
+    width: 150px;
 }
 
 .parte2{
@@ -142,14 +150,19 @@ footer div{
 
 }
 
-.parte2 div img{
-    margin-left: 10px ;
-    margin-right: 5px;
+.parte2 .turismo img{
+    margin-left: 200px ;
+    margin-right: 10px;
     height: 300px;
     width: 350px;
 }
+.turismo{
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+}
 
-.parte2 div p{
-    height: 100px;
-    width: 30%;
+.turismo p{
+    font-size: 17.5px;
+    margin-right: 300px;
 }
