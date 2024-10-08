@@ -96,6 +96,25 @@ footer div{
     background-image: linear-gradient(#52733B, #715E4E);
     height: 1000px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.parte1 h1{
+    display: flex;
+    justify-content: center;
+    margin-left: 45%;
+}
+
+.parte1 div img{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+.parte1 div p{
+    margin-top: 10%;
+    margin-left: 10%;
 }
 
 .imagenes{
@@ -121,4 +140,13 @@ footer div{
 .parte2 div img{
     margin-left: 10px ;
     margin-right: 5px;
+    height: 400px;
+    width: 450px;
+}
+
+.parte2 div p{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 30%;
 }

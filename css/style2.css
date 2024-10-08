@@ -60,19 +60,20 @@ nav ul li:hover{
     background-color: #4b733b;
     margin-top: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: 
-    'titulo titulo titulo'
-    'texto mapa mapa';
+    'titulo titulo'
+    'texto mapa';
 }
 
 .texto1{
     display: flex;
     justify-content: flex-start;
-    width: 50%;
-    margin-left: 30%;
-    margin-right: 10%;
+    width: 550px;
+    height: 100%;
+    font-size: 20px;
+    margin-left: 40%;
     grid-area: texto;
 }
 
@@ -80,7 +81,7 @@ nav ul li:hover{
     display: flex;
     justify-content: flex-end;
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 20%;
     grid-area: mapa;
 }
 
@@ -139,11 +140,13 @@ footer div{
 .llegada{
     background-color: #715E4E;
     width: 100%;
+    height: 750px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: 
-    'imagen imagen texto';
+    'imagen texto';
+    padding-bottom: 2%;
 }
 
 .ruta{
@@ -153,7 +156,12 @@ footer div{
     grid-area: imagen;
     margin-left: 10%;
     margin-right: 10%;
-    height: 800px;
+    height: 100%;
+}
+.ruta img{
+    width: 100%;
+    padding-right: 1%;
+    height: 750px;
 }
 .transicion{
     display: flex;
@@ -165,8 +173,13 @@ footer div{
 }
 .texto2{
     display: flex;
-    height: 350px;
+    height: 100%;
+    width: 500px;
     grid-area: texto;
     margin-left: 10%;
     margin-right: 20%;
+}
+.texto2 p{
+    font-size: 20.8px;
+    padding-left: 1%;
 }
